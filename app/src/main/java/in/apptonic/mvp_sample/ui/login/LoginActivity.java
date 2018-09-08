@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import in.apptonic.mvp_sample.BaseActivity;
+import in.apptonic.mvp_sample.ui.base.BaseActivity;
 
 import in.apptonic.mvp_sample.MvpApp;
 import in.apptonic.mvp_sample.R;

@@ -1,4 +1,4 @@
-package in.apptonic.mvp_sample;
+package in.apptonic.mvp_sample.ui.base;
 
 import android.support.v7.app.AppCompatActivity;
 

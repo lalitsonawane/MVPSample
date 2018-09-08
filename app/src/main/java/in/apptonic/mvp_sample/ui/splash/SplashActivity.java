@@ -6,11 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 
-import in.apptonic.mvp_sample.BaseActivity;
 import in.apptonic.mvp_sample.MvpApp;
 import in.apptonic.mvp_sample.R;
 import in.apptonic.mvp_sample.data.DataManager;
-import in.apptonic.mvp_sample.ui.base.MvpView;
 import in.apptonic.mvp_sample.ui.login.LoginActivity;
 import in.apptonic.mvp_sample.ui.main.MainActivity;
 
