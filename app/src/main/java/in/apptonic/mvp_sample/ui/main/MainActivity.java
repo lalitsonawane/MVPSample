@@ -38,8 +38,8 @@ public class MainActivity extends Activity implements MainMvpView{
         mainPresenter = new MainPresenter(dataManager);
         mainPresenter.onAttach(this);
 
-        textViewShow = (TextView) findViewById(R.id.textViewShow);
-        buttonLayout = (Button) findViewById(R.id.buttonLogout);
+        textViewShow = findViewById(R.id.textViewShow);
+        buttonLayout = findViewById(R.id.buttonLogout);
         textViewShow.setText(mainPresenter.getEmailId());
 
         buttonLayout.setOnClickListener(new View.OnClickListener() {

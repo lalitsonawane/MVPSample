@@ -39,9 +39,9 @@ public class LoginActivity extends BaseActivity implements LoginMvpView {
         loginPresenter = new LoginPresenter(dataManager);
 
         loginPresenter.onAttach(this);
-        editTextEmail = (EditText) findViewById(R.id.editTextEmail);
-        editTextPassword = (EditText) findViewById(R.id.editTextPassword);
-        button = (Button) findViewById(R.id.button);
+        editTextEmail = findViewById(R.id.editTextEmail);
+        editTextPassword = findViewById(R.id.editTextPassword);
+        button = findViewById(R.id.button);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
